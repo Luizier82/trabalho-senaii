@@ -199,7 +199,7 @@
 <body>
   <div class="container">
     <!-- Logo -->
-    <img src="WhatsApp Image 2025-10-22 at 08.01.52.jpeg" alt="Logo do Site" class="logo" />
+    <img src="blob:https://web.whatsapp.com/cb4905d1-bbb9-4013-ac47-16ea50a80ab7" alt="Logo do Site" class="logo" />
 
     <!-- Imagem e texto lado a lado -->
     <div class="imagem-texto">
