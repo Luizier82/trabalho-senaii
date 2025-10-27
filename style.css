@@ -41,7 +41,6 @@ body {
   filter: drop-shadow(0 0 10px rgba(0,0,0,0.3));
 }
 
-/* Imagem e texto */
 .imagem-texto {
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +63,6 @@ body {
   cursor: pointer;
 }
 
-/* Texto lateral */
 .texto-lateral {
   flex: 1 1 50%;
   background-color: #ffffff;
@@ -78,7 +76,6 @@ body {
   overflow-y: auto;
 }
 
-/* Diários */
 .diarios {
   margin-top: 60px;
   text-align: center;
@@ -109,7 +106,6 @@ body {
   white-space: pre-wrap;
 }
 
-/* Botão PDF */
 .btn-pdf {
   margin-top: 40px;
   background-color: #f0f0f0;
@@ -122,6 +118,7 @@ body {
   cursor: pointer;
   box-shadow: 6px 6px 14px #d1d1d1, -6px -6px 14px #ffffff;
   transition: transform 0.2s ease, box-shadow 0.3s ease;
+  user-select: none;
   text-decoration: none;
   display: inline-block;
 }
@@ -135,7 +132,6 @@ body {
   transform: scale(0.98);
 }
 
-/* Botão WhatsApp */
 .whatsapp-btn {
   position: fixed;
   bottom: 25px;
@@ -150,6 +146,8 @@ body {
   box-shadow: 6px 6px 14px #d1d1d1, -6px -6px 14px #ffffff;
   border: none;
   transition: transform 0.2s ease, box-shadow 0.3s ease;
+  user-select: none;
+  z-index: 1000;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -160,7 +158,6 @@ body {
   box-shadow: 4px 4px 12px #c4c4c4, -4px -4px 12px #ffffff;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   body {
     padding: 20px;
@@ -190,4 +187,3 @@ body {
     height: auto;
   }
 }
-
